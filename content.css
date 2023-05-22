@@ -1,0 +1,96 @@
+/****** HEADER *********/
+div.header {
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+.notification-indicator .mail-status {
+  border: 0px !important;
+  background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab) !important;
+}
+
+.header-search-scope {
+  border-right: 1px solid #f1e8e7 !important;
+  color: white !important;
+}
+
+.header-nav-link {
+  color: white !important;
+}
+
+.avatar {
+  border-radius: 50% !important;
+}
+
+.dropdown-item:hover {
+  background-color: #f37055 !important;
+}
+
+/****** NAVBAR/TABS *********/
+.private, .private a, .public, .public a {
+  color: rgb(128, 189, 189) !important;
+}
+
+.pagehead {
+  background: linear-gradient(to right, rgb(253, 235, 255), rgb(255, 243, 207), rgb(165, 255, 255));
+}
+
+.reponav-item.selected {
+  border-color: #ef4e7b #e5e5e5 transparent !important;
+}
+
+.social-count {
+  background-color: transparent !important;
+  color: rgb(128, 189, 189) !important;
+  border-color: rgb(128, 189, 189) !important;
+}
+
+
+/****** BODY *********/
+.boxed-group > h3, .commit-tease {
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-color: #dfe2e5 !important;
+}
+
+.boxed-group > h3, .commit-author-section, .user-mention, .issue-link {
+  color: white !important;
+}
+
+.commit-tease > .float-right, .commit-author-section, .user-mention, .issue-link {
+  opacity: 0.7 !important;
+}
+
+.octicon-file-directory {
+  color: #07b39b !important;
+}
+
+.files .content a {
+  color: #6fba82 !important;
+}
+
+.commit-tease a, .float-right {
+  color: white !important;
+}
+
+
+/****** BUTTONS *********/
+.btn {
+  border-radius:0px !important;
+  border-color: rgb(128, 189, 189) !important;
+  color: rgb(128, 189, 189) !important;
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+.btn:hover {
+  background-color: rgb(128, 189, 189) !important;
+  color: white !important;
+}
+
+.btn-primary {
+  background-image: linear-gradient(rgb(128, 189, 189), rgb(128, 189, 189)) !important;
+  border: 0px !important;
+  color: white !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300 !important;
+}
